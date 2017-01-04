@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/background"
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+
+    <ImageButton
+        android:id="@+id/imgBtnFlash"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@drawable/flash"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:onClick="onFlashClick"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="30dp"
+        android:visibility="gone"
+        />
+
+    <ImageButton
+        android:id="@+id/imgBtnTakePicture"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/camera"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:onClick="onTakePictureClick"
+        android:layout_margin="10dp"
+        />
+
+    <ImageButton
+        android:id="@+id/imgBtnBackCamera"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@drawable/selfie"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:onClick="onBackCameraClick"
+        android:layout_marginBottom="20dp"
+        android:layout_marginRight="30dp"
+
+        />
+
+</RelativeLayout>
